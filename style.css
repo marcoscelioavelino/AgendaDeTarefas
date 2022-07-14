@@ -1,0 +1,165 @@
+@font-face {
+    font-family: mmontserrat;
+    src: url(fonts/Montserrat-Regular.otf);
+ }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0A3F5C;
+}
+
+#divPrincipal {
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-top: 5em;
+background-color: #317484;
+width: 25em;
+height: auto;
+padding-top: 1em;
+padding-bottom: 0.5em;
+border-radius: 1em 1em 1em 1em;
+}
+
+#divNovaTarefa {
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: -1.05em;
+}
+
+#divNovaTarefa h2 {
+    color: #ffffff;
+    text-decoration: underline;
+    margin-left: 1.4em;
+}
+
+#formTarefa {
+    position: relative;
+
+}
+
+#formTarefa input {
+    width: 80%;
+    height: 2em;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 0.1em ;
+    outline: none;
+
+}
+
+#formTarefa input::placeholder {
+    color: #000000;
+    font-size: 14px;
+}
+
+#btAddTarefa {
+    position: absolute;
+    height: 2.4em;
+    width: 2.5em;
+    padding-top: 0.27em;
+    padding-left: 0.30em;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 0;
+}
+#btAddTarefa:hover {
+    background-color: #008000;
+    color: #ffffff;
+}
+
+#formTarefa ion-icon {
+    font-size: 1.5rem;
+
+}
+
+/* TAREFAS */
+
+
+#caixaTarefas {
+       
+    
+}
+
+#divTarefas h3 {
+    color: #000000;
+    padding-top: 1em;
+}
+
+#listaTarefas {
+    list-style: none;
+    width: 22em;
+    padding-left: 0;
+    padding-bottom: 0.1em;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#listaTarefas li {
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px 0px 0px 10px;
+    height: 1.5em;
+    padding-left: 0.5em;
+    position: relative;
+    padding-top: 0.25em;
+    box-shadow: 0.1em 0.1em 0.1em #000000;
+    margin-bottom: 0.8em;
+}
+
+#listaTarefas li span {
+    font-family: montserrat;
+    font-weight: bolder;
+    font-size: 0.78rem;
+}
+
+#listaTarefas ion-icon {
+    position: absolute;
+    font-size: 0.9rem;
+    cursor: pointer;
+    top: 0;
+    height: 1.95em;
+    width: 1.5em;
+    
+}
+
+.confirmarTarefa {
+    right: 1.6em;
+    alt: none;
+
+}
+
+.confirmarTarefa:hover {
+    background-color: #008000;
+    color: #ffffff;
+}
+
+.excluirTarefa {
+    right: 0;
+    
+}
+
+.excluirTarefa:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+
+}
+
+
+
+.ocultar {
+    display: none;
+}
+
+#listaTarefas li.confirmar {
+    background-color: #749b20;
+    color: #ffffff;
+}

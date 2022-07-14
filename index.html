@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENDA DE TAREFAS</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</head>
+
+<body>
+
+    <div id="divPrincipal">
+
+
+        <div id="divNovaTarefa">
+
+            <h2>AGENDA</h2>
+
+            <form action="" id="formTarefa">
+
+                <input type="text" id="tituloNovaTarefa" placeholder="Informe a nova tarefa para a lista">
+                <button id="btAddTarefa">
+                    <ion-icon name="add-circle-outline"></ion-icon>
+                </button>
+
+            </form>
+
+        </div>
+
+        <div id="divTarefas">
+            
+            <h3> LISTA DE TAREFAS </h3>
+        
+            <ul id="listaTarefas">
+
+                <li class="caixaTarefas modelo ocultar">
+                    <span class="tituloTarefa">Ir na biblioteca</span>
+                    <ion-icon name="checkmark-done-outline" class="confirmarTarefa" alt=""></ion-icon>
+                    <ion-icon name="trash-outline" class="excluirTarefa"></ion-icon>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/functions.js"></script>
+</body>
+
+</html>
